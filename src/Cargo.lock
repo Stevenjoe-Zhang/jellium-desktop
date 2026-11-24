@@ -744,9 +744,9 @@ dependencies = [
  "cfg-if",
  "crossbeam-utils",
  "hashbrown 0.14.5",
- "lock_api",
+ "lock_api 0.4.14",
  "once_cell",
- "parking_lot_core",
+ "parking_lot_core 0.9.12",
 ]
 
 [[package]]
@@ -1593,7 +1593,7 @@ checksum = "916cb6b2ec42ffaca624e7867bb382a4673015cb4ffcd7330b48085d02e4c615"
 dependencies = [
  "gix-hash",
  "hashbrown 0.17.1",
- "parking_lot",
+ "parking_lot 0.12.5",
 ]
 
 [[package]]
@@ -1616,7 +1616,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c93ead32f1aded3f2ce985c3af4b4492f403a3f0d433250362eb845732d74893"
 dependencies = [
  "bstr",
- "hashbrown 0.16.1",
+ "hashbrown 0.17.1",
 ]
 
 [[package]]
@@ -1724,7 +1724,7 @@ dependencies = [
  "gix-utils",
  "gix-zlib",
  "memmap2",
- "parking_lot",
+ "parking_lot 0.12.5",
  "tempfile",
 ]
 
@@ -1771,7 +1771,7 @@ dependencies = [
  "crossbeam-channel",
  "gix-trace",
  "once_cell",
- "parking_lot",
+ "parking_lot 0.12.5",
 ]
 
 [[package]]
@@ -1969,7 +1969,7 @@ dependencies = [
  "dashmap",
  "gix-fs",
  "libc",
- "parking_lot",
+ "parking_lot 0.12.5",
  "tempfile",
  "windows-sys 0.61.2",
 ]
@@ -2089,7 +2089,7 @@ dependencies = [
  "gix-trace",
  "gix-traverse",
  "gix-utils",
- "parking_lot",
+ "parking_lot 0.12.5",
 ]
 
 [[package]]
@@ -2601,7 +2601,7 @@ dependencies = [
  "jfn-platform-abi",
  "jfn-playback",
  "nix",
- "parking_lot",
+ "parking_lot 0.13.0",
  "serde",
  "serde_json",
  "slotmap",
@@ -2612,7 +2612,7 @@ dependencies = [
 name = "jfn-color"
 version = "0.1.0-dev"
 dependencies = [
- "parking_lot",
+ "parking_lot 0.13.0",
 ]
 
 [[package]]
@@ -2627,7 +2627,7 @@ dependencies = [
  "jfn-mailbox",
  "jfn-paths",
  "jfn-platform-abi",
- "parking_lot",
+ "parking_lot 0.13.0",
  "serde",
  "serde_json",
  "thiserror 2.0.21",
@@ -2642,7 +2642,7 @@ dependencies = [
  "objc2",
  "objc2-io-surface",
  "objc2-metal",
- "parking_lot",
+ "parking_lot 0.13.0",
  "pollster",
  "raw-window-handle",
  "thiserror 2.0.21",
@@ -2659,7 +2659,7 @@ version = "0.1.0-dev"
 dependencies = [
  "jfn-platform-abi",
  "jfn-playback",
- "parking_lot",
+ "parking_lot 0.13.0",
  "tracing",
 ]
 
@@ -2708,7 +2708,7 @@ dependencies = [
  "khronos-egl",
  "libloading 0.9.1",
  "nix",
- "parking_lot",
+ "parking_lot 0.13.0",
  "thiserror 2.0.21",
  "tiny-skia",
  "tracing",
@@ -2723,7 +2723,7 @@ dependencies = [
  "jfn-wake-event",
  "memchr",
  "nix",
- "parking_lot",
+ "parking_lot 0.13.0",
  "tempfile",
  "time",
  "tracing",
@@ -2756,7 +2756,7 @@ dependencies = [
  "objc2-io-kit",
  "objc2-metal",
  "objc2-quartz-core",
- "parking_lot",
+ "parking_lot 0.13.0",
  "thiserror 2.0.21",
  "tracing",
 ]
@@ -2779,7 +2779,7 @@ dependencies = [
 name = "jfn-mailbox"
 version = "0.1.0-dev"
 dependencies = [
- "parking_lot",
+ "parking_lot 0.13.0",
 ]
 
 [[package]]
@@ -2790,7 +2790,7 @@ dependencies = [
  "jfn-mpv",
  "jfn-platform-abi",
  "jfn-playback",
- "parking_lot",
+ "parking_lot 0.13.0",
  "zbus",
 ]
 
@@ -2801,7 +2801,7 @@ dependencies = [
  "bindgen",
  "crossbeam-channel",
  "jfn-color",
- "parking_lot",
+ "parking_lot 0.13.0",
  "pkg-config",
  "thiserror 2.0.21",
  "tracing",
@@ -2813,7 +2813,7 @@ version = "0.1.0-dev"
 dependencies = [
  "dirs",
  "nix",
- "parking_lot",
+ "parking_lot 0.13.0",
  "tempfile",
 ]
 
@@ -2825,7 +2825,7 @@ dependencies = [
  "jfn-gpu-paint",
  "jfn-paths",
  "nix",
- "parking_lot",
+ "parking_lot 0.13.0",
  "serde",
  "serde_json",
  "thiserror 2.0.21",
@@ -2843,7 +2843,7 @@ dependencies = [
  "jfn-mpv",
  "jfn-platform-abi",
  "jfn-wake-event",
- "parking_lot",
+ "parking_lot 0.13.0",
  "serde",
  "thiserror 2.0.21",
  "tracing",
@@ -2881,7 +2881,7 @@ dependencies = [
  "jfn-windows",
  "jfn-x11",
  "keycode",
- "parking_lot",
+ "parking_lot 0.13.0",
  "png",
  "serde",
  "serde_json",
@@ -2919,7 +2919,7 @@ dependencies = [
  "jfn-wake-event",
  "libloading 0.9.1",
  "nix",
- "parking_lot",
+ "parking_lot 0.13.0",
  "smithay-client-toolkit",
  "tempfile",
  "thiserror 2.0.21",
@@ -2944,7 +2944,7 @@ dependencies = [
  "jfn-platform-abi",
  "jfn-playback",
  "jfn-windows-sink",
- "parking_lot",
+ "parking_lot 0.13.0",
  "thiserror 2.0.21",
  "tracing",
  "windows",
@@ -2984,7 +2984,7 @@ dependencies = [
  "jfn-wake-event",
  "memmap2",
  "nix",
- "parking_lot",
+ "parking_lot 0.13.0",
  "slotmap",
  "tempfile",
  "thiserror 2.0.21",
@@ -3263,6 +3263,15 @@ name = "lock_api"
 version = "0.4.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "224399e74b87b5f3557511d98dff8b14089b3dadafcab6bb93eab67d3aace965"
+dependencies = [
+ "scopeguard",
+]
+
+[[package]]
+name = "lock_api"
+version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "65d91b22da179613dcf4d6ec8349563f52a363f6849e03b00dd0a185ec4a59af"
 dependencies = [
  "scopeguard",
 ]
@@ -3822,8 +3831,18 @@ version = "0.12.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "93857453250e3077bd71ff98b6a65ea6621a19bb0f559a85248955ac12c45a1a"
 dependencies = [
- "lock_api",
- "parking_lot_core",
+ "lock_api 0.4.14",
+ "parking_lot_core 0.9.12",
+]
+
+[[package]]
+name = "parking_lot"
+version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a9cf937ca4e1d0b7578784559063422fc39ae7c5a00f02471f2614d5486fd226"
+dependencies = [
+ "lock_api 0.5.0",
+ "parking_lot_core 0.10.0",
 ]
 
 [[package]]
@@ -3834,7 +3853,19 @@ checksum = "2621685985a2ebf1c516881c026032ac7deafcda1a2c9b7850dc81e3dfcb64c1"
 dependencies = [
  "cfg-if",
  "libc",
- "redox_syscall",
+ "redox_syscall 0.5.18",
+ "smallvec",
+ "windows-link",
+]
+
+[[package]]
+name = "parking_lot_core"
+version = "0.10.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9cfff060068cc18aa7815010fcaf80c68c7fb9e85fc7f5c0f9bf142c21d19826"
+dependencies = [
+ "libc",
+ "redox_syscall 0.9.5",
  "smallvec",
  "windows-link",
 ]
@@ -4023,7 +4054,7 @@ version = "31.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cf52d87428247c5aa3760ac8e7d8b13ec7b3579b955a8c3f311668b6860acba5"
 dependencies = [
- "parking_lot",
+ "parking_lot 0.12.5",
 ]
 
 [[package]]
@@ -4159,6 +4190,15 @@ name = "redox_syscall"
 version = "0.5.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ed2bf2547551a7053d6fdfafda3f938979645c44812fbfcda098faae3f1a362d"
+dependencies = [
+ "bitflags 2.13.2",
+]
+
+[[package]]
+name = "redox_syscall"
+version = "0.9.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "580c875845b41ecb1564ad1ae4703044cef774145e3d7a94dc2b3fa7c97868fd"
 dependencies = [
  "bitflags 2.13.2",
 ]
@@ -4556,7 +4596,7 @@ dependencies = [
  "objc2-foundation",
  "objc2-quartz-core",
  "raw-window-handle",
- "redox_syscall",
+ "redox_syscall 0.5.18",
  "tracing",
  "wasm-bindgen",
  "web-sys",
@@ -5276,7 +5316,7 @@ checksum = "c62b7f338e4397a45d054c15a2b36a93d57cccdda7be11a7d7b045d47b5e70ce"
 dependencies = [
  "futures",
  "js-sys",
- "parking_lot",
+ "parking_lot 0.12.5",
  "pin-project-lite",
  "slab",
  "wasm-bindgen",
@@ -5462,7 +5502,7 @@ dependencies = [
  "js-sys",
  "log",
  "naga",
- "parking_lot",
+ "parking_lot 0.12.5",
  "portable-atomic",
  "profiling",
  "raw-window-handle",
@@ -5495,7 +5535,7 @@ dependencies = [
  "naga",
  "naga-types",
  "once_cell",
- "parking_lot",
+ "parking_lot 0.12.5",
  "portable-atomic",
  "profiling",
  "raw-window-handle",
@@ -5572,7 +5612,7 @@ dependencies = [
  "objc2-quartz-core",
  "once_cell",
  "ordered-float",
- "parking_lot",
+ "parking_lot 0.12.5",
  "portable-atomic",
  "portable-atomic-util",
  "profiling",
@@ -5856,7 +5896,7 @@ dependencies = [
  "isnt",
  "linearize",
  "log",
- "parking_lot",
+ "parking_lot 0.12.5",
  "phf",
  "run-on-drop",
  "smallvec",
