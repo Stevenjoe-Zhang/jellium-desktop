@@ -1616,7 +1616,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c93ead32f1aded3f2ce985c3af4b4492f403a3f0d433250362eb845732d74893"
 dependencies = [
  "bstr",
- "hashbrown 0.16.1",
+ "hashbrown 0.17.1",
 ]
 
 [[package]]
@@ -2600,7 +2600,7 @@ dependencies = [
  "jfn-paths",
  "jfn-platform-abi",
  "jfn-playback",
- "nix",
+ "nix 0.32.0",
  "parking_lot",
  "serde",
  "serde_json",
@@ -2638,7 +2638,7 @@ name = "jfn-gpu-paint"
 version = "0.1.0-dev"
 dependencies = [
  "ash",
- "nix",
+ "nix 0.32.0",
  "objc2",
  "objc2-io-surface",
  "objc2-metal",
@@ -2707,7 +2707,7 @@ dependencies = [
  "jfn-platform-abi",
  "khronos-egl",
  "libloading 0.9.1",
- "nix",
+ "nix 0.32.0",
  "parking_lot",
  "thiserror 2.0.21",
  "tiny-skia",
@@ -2722,7 +2722,7 @@ version = "0.1.0-dev"
 dependencies = [
  "jfn-wake-event",
  "memchr",
- "nix",
+ "nix 0.32.0",
  "parking_lot",
  "tempfile",
  "time",
@@ -2748,7 +2748,7 @@ dependencies = [
  "jfn-platform-abi",
  "jfn-playback",
  "libc",
- "nix",
+ "nix 0.32.0",
  "objc2",
  "objc2-app-kit",
  "objc2-core-foundation",
@@ -2812,7 +2812,7 @@ name = "jfn-paths"
 version = "0.1.0-dev"
 dependencies = [
  "dirs",
- "nix",
+ "nix 0.32.0",
  "parking_lot",
  "tempfile",
 ]
@@ -2824,7 +2824,7 @@ dependencies = [
  "cef",
  "jfn-gpu-paint",
  "jfn-paths",
- "nix",
+ "nix 0.32.0",
  "parking_lot",
  "serde",
  "serde_json",
@@ -2896,7 +2896,7 @@ name = "jfn-wake-event"
 version = "0.1.0-dev"
 dependencies = [
  "calloop",
- "nix",
+ "nix 0.32.0",
  "windows-sys 0.61.2",
 ]
 
@@ -2918,7 +2918,7 @@ dependencies = [
  "jfn-playback",
  "jfn-wake-event",
  "libloading 0.9.1",
- "nix",
+ "nix 0.32.0",
  "parking_lot",
  "smithay-client-toolkit",
  "tempfile",
@@ -2983,7 +2983,7 @@ dependencies = [
  "jfn-playback",
  "jfn-wake-event",
  "memmap2",
- "nix",
+ "nix 0.32.0",
  "parking_lot",
  "slotmap",
  "tempfile",
@@ -3487,9 +3487,21 @@ dependencies = [
 
 [[package]]
 name = "nix"
-version = "0.31.3"
+version = "0.31.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cf20d2fde8ff38632c426f1165ed7436270b44f199fc55284c38276f9db47c3d"
+checksum = "2bc81ce8148d3b4f3274da811f11cdd824ae661ee4ef732cdb229825cf5be7f7"
+dependencies = [
+ "bitflags 2.13.2",
+ "cfg-if",
+ "cfg_aliases",
+ "libc",
+]
+
+[[package]]
+name = "nix"
+version = "0.32.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "77730ed34f01f4990cb2ea67fec715ecebc6fab9a6396cf83c5529b13f581bdc"
 dependencies = [
  "bitflags 2.13.2",
  "cfg-if",
@@ -6181,7 +6193,7 @@ dependencies = [
  "indexmap",
  "libc",
  "memchr",
- "nix",
+ "nix 0.31.4",
  "typed-path",
  "windows-sys 0.61.2",
  "zeroize",
